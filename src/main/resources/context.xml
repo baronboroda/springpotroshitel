@@ -21,5 +21,9 @@
 	<bean class="com.spring.springpotroshitel.quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
 	
 	<bean class="com.spring.springpotroshitel.quoters.ProfilingHandlerBeanPostProcessor"/>
+	
+	<bean class="com.spring.springpotroshitel.quoters.PostProxyInvokerContextListener"/>
+	
+	<bean class="com.spring.springpotroshitel.quoters.DeprecationHandlerBeanFactoryPostProcessor"/>
 		
 </beans>
