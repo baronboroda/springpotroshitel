@@ -11,6 +11,10 @@ public class TerminatorQuoter implements Quoter {
 	
 	private String message;
 	
+	public void setRepeat(int repeat) {
+		this.repeat = repeat;
+	}
+	
 	public TerminatorQuoter() {
 		System.out.println("Phase 1");
 		System.out.println(repeat);
